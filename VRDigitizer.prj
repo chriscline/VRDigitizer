@@ -1,0 +1,82 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2425566987" file="C:\tmp\VRDigitizer\VRDigitizer.prj" location="C:\tmp\VRDigitizer" name="VRDigitizer" target="target.mlapps" target-name="Package App">
+    <param.appname>VRDigitizer</param.appname>
+    <param.authnamewatermark>Christopher Cline</param.authnamewatermark>
+    <param.email>cline076@umn.edu</param.email>
+    <param.company>University of Minnesota</param.company>
+    <param.icon>${PROJECT_ROOT}\VRDigitizer_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\VRDigitizer_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\VRDigitizer_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\VRDigitizer_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>VRDigitizer</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\Images\GUIScreenshot.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Optimization Toolbox</item>
+      <item>Parallel Computing Toolbox</item>
+      <item>Signal Processing Toolbox</item>
+      <item>Statistics and Machine Learning Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>6</item>
+      <item>80</item>
+      <item>8</item>
+      <item>19</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.2</item>
+      <item>7.6</item>
+      <item>6.10</item>
+      <item>7.4</item>
+      <item>11.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\tmp\VRDigitizer</param.output>
+    <param.guid>499933f1-c749-483a-841a-66b505f16308</param.guid>
+    <unset>
+      <param.description />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\VRDigitizerGUI.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Common</file>
+      <file>${PROJECT_ROOT}\python</file>
+      <file>${PROJECT_ROOT}\Resources</file>
+      <file>${PROJECT_ROOT}\VRDigitizerInterfacer.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\tmp" name="VRDigitizer" optional="false">C:\tmp\VRDigitizer</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
