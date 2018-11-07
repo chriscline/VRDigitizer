@@ -1,0 +1,11 @@
+*.asv
+*~
+*.tiff
+*.fig
+.idea
+*.mlappinstall
+python/build
+MeasurementData/
+VRDigitizer_compiled/*
+VRDigitizer_compiled_resources/*
+VRDigitizerGUI_SavedSettings.mat

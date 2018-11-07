@@ -1,0 +1,3 @@
+Vive controller STL mesh from https://www.thingiverse.com/thing:1877981
+Vive HMD mesh adapted from https://sketchfab.com/models/4cee0970fe60444ead77d41fbb052a33#
+

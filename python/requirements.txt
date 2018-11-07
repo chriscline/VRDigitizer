@@ -1,0 +1,3 @@
+openvr>=1.0.1201
+cx_Freeze>=5.1.1
+numpy>=1.13.0
